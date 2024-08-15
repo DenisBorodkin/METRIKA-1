@@ -158,3 +158,24 @@ body {
 		}
 	}
 }
+.project-footer-block {
+	margin-bottom: 150px;
+	&__bg {
+		height: 717px;
+		position: relative;
+		background-image: url("../img/footer-project\ bg.png");
+		background-repeat: no-repeat;
+
+		&_text {
+			width: 443px;
+			position: absolute;
+			left: 125px;
+			bottom: 60px;
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 41px;
+			letter-spacing: -0.03em;
+			color: #ffffff;
+		}
+	}
+}

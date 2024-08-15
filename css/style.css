@@ -156,3 +156,24 @@ body {
   line-height: 41px;
   letter-spacing: -0.03em;
 }
+
+.project-footer-block {
+  margin-bottom: 150px;
+}
+.project-footer-block__bg {
+  height: 717px;
+  position: relative;
+  background-image: url("../img/footer-project bg.png");
+  background-repeat: no-repeat;
+}
+.project-footer-block__bg_text {
+  width: 443px;
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
