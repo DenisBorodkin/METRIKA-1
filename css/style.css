@@ -29,14 +29,16 @@ body {
 .header-block__bg {
   width: 1150px;
   height: 500px;
-  padding-left: 40px;
-  padding-top: 379px;
+  position: relative;
   background-image: url("../img/header bg.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 .header-block__bg_text {
   width: 430px;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   color: #ffffff;
   font-size: 20px;
   line-height: 27px;
