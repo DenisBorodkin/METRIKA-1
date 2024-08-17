@@ -120,6 +120,7 @@ body {
 		}
 	}
 }
+
 .services-block {
 	width: 1400px;
 	margin: 0 auto;
@@ -130,20 +131,20 @@ body {
 		margin-bottom: 34px;
 		color: #ffffff;
 	}
-
-	&__card {
-		margin-bottom: 60px;
-		&:last-child {
-			margin-bottom: 0;
-		}
-		&_img {
-			margin-bottom: 15px;
-		}
-
-		&_title {
-			font-size: 30px;
-			line-height: 41px;
-			letter-spacing: -0.03em;
+	&__items {
+		&_list {
+			margin-bottom: 60px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			& img {
+				margin-bottom: 15px;
+			}
+			& h3 {
+				font-size: 30px;
+				line-height: 41px;
+				letter-spacing: -0.03em;
+			}
 		}
 	}
 }
