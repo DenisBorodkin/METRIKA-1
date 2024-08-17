@@ -73,32 +73,33 @@ body {
 	letter-spacing: -0.03em;
 	color: #121212;
 }
+
 .projects-block {
 	margin-bottom: 150px;
 	&__title {
 		margin-bottom: 30px;
 	}
-
-	&__card {
-		margin-bottom: 90px;
-		&_img {
-			margin-bottom: 15px;
-		}
-		&_text {
-			&_title {
+	&__cards {
+		&_item {
+			margin-bottom: 90px;
+			& img {
 				margin-bottom: 15px;
-				font-size: 30px;
-				line-height: 41px;
-				letter-spacing: -0.03em;
-				color: #121212;
 			}
-
-			&_link {
-				font-size: 20px;
-				line-height: 27px;
-				letter-spacing: -0.03em;
-				color: #ad1818;
-				text-decoration: none;
+			& article {
+				& h3 {
+					margin-bottom: 15px;
+					font-size: 30px;
+					line-height: 41px;
+					letter-spacing: -0.03em;
+					color: #121212;
+				}
+				& a {
+					font-size: 20px;
+					line-height: 27px;
+					letter-spacing: -0.03em;
+					color: #ad1818;
+					text-decoration: none;
+				}
 			}
 		}
 	}
