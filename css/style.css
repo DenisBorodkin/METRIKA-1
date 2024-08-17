@@ -189,15 +189,14 @@ body {
 }
 .projects-block__footer-link {
   display: block;
+  height: 153px;
   font-size: 30px;
-  line-height: 41px;
+  line-height: 153px;
   letter-spacing: -0.03em;
   text-align: center;
   text-decoration: none;
   color: #ad1818;
   border: 1px solid #ad1818;
-  padding-top: 56px;
-  padding-bottom: 56px;
   border-radius: 5px;
 }
 .projects-block__footer-link:hover {
