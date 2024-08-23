@@ -1,0 +1,23 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #121212;
+}
+.footer__nav_list {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+}
+.footer__nav_list li {
+  display: inline-block;
+  color: #ffffff;
+}
+.footer__text {
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  opacity: 0.5;
+  color: #ffffff;
+}
