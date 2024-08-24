@@ -1,5 +1,8 @@
 @import "nulestyle.scss"; //Подключение обнуляющих стилей
 
+html {
+	scroll-behavior: smooth;
+}
 body {
 	width: 100%;
 	font-family: "Manrope", sans-serif;
@@ -239,7 +242,8 @@ body {
 			font-size: 60px;
 			line-height: 60px;
 			letter-spacing: -0.03em;
-			& {
+			& a{
+				color: #121212;
 				opacity: 0.5;
 				border-bottom: 2px solid;
 			}
