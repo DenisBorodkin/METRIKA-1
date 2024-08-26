@@ -202,6 +202,8 @@ body {
 		position: relative;
 		background-image: url("../img/footer-project\ bg.png");
 		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50%;
 
 		&_text {
 			width: 443px;
@@ -216,25 +218,32 @@ body {
 	}
 }
 .contacts-block {
-	& img {
-		position: absolute;
-		left: 120px;
-		top: -35px;
-	}
-	position: relative;
 	display: block;
 	margin-bottom: 150px;
 	padding-left: 125px;
 	padding-right: 125px;
 	&__title {
 		margin-bottom: 32px;
+		position: relative;
+		&::before {
+			content: url("/img/icon-phone.png");
+			width: 20px;
+			height: 25px;
+			position: absolute;
+			left: -2px;
+			bottom: 40px;
+		}
 	}
+
 	&__numbers {
 		&_phone {
 			margin-bottom: 30px;
 			font-size: 60px;
 			line-height: 60px;
 			letter-spacing: -0.03em;
+			& a{
+				color: #121212;
+			}
 		}
 		&_email {
 			display: inline-block;
@@ -242,7 +251,7 @@ body {
 			font-size: 60px;
 			line-height: 60px;
 			letter-spacing: -0.03em;
-			& a{
+			& a {
 				color: #121212;
 				opacity: 0.5;
 				border-bottom: 2px solid;
