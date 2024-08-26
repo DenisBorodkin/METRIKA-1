@@ -19,12 +19,12 @@ body {
 	padding-top: 33px;
 	&__logo {
 		display: inline-block;
-		margin-right: 530px;
+		margin-right: 555px;
 
 		& img {
 			display: block;
 			width: 127px;
-			height: 21px;
+			height: 23px;
 		}
 	}
 	&__nav {
@@ -33,7 +33,7 @@ body {
 		&_list {
 			& li {
 				display: inline-block;
-				margin-right: 60px;
+				margin-right: 54px;
 				& a {
 					font-size: 18px;
 					line-height: 25px;
@@ -97,28 +97,30 @@ body {
 	}
 
 	&__text {
-		margin-bottom: 30px;
+		margin-bottom: 29px;
 		width: 1048px;
 		font-size: 45px;
 		line-height: 61px;
-		letter-spacing: -0.03em;
+		letter-spacing: -0.025em;
 	}
 
 	&__link {
 		display: inline-block;
-		padding: 20px 40px;
+		padding: 24px 40px;
 		text-decoration: none;
 		background-color: #ad1818;
 		color: #ffffff;
 		font-size: 20px;
+		line-height: 20px;
 		border-radius: 5px;
+		letter-spacing: -0.03em;
 	}
 }
 .title {
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 25px;
-	letter-spacing: -0.03em;
+	letter-spacing: -0.055em;
 	color: #121212;
 }
 
@@ -138,13 +140,13 @@ body {
 					margin-bottom: 15px;
 					font-size: 30px;
 					line-height: 41px;
-					letter-spacing: -0.03em;
+					letter-spacing: -0.04em;
 					color: #121212;
 				}
 				& a {
 					font-size: 20px;
 					line-height: 27px;
-					letter-spacing: -0.03em;
+					letter-spacing: -0.04em;
 					color: #ad1818;
 					text-decoration: none;
 				}
@@ -162,6 +164,7 @@ body {
 		color: #ad1818;
 		border: 1px solid #ad1818;
 		border-radius: 5px;
+
 		&:hover {
 			background-color: #ad1818;
 			color: #ffffff;
@@ -196,7 +199,7 @@ body {
 	}
 }
 .project-footer-block {
-	margin-bottom: 150px;
+	margin-bottom: 185px;
 	&__bg {
 		height: 717px;
 		position: relative;
@@ -219,7 +222,7 @@ body {
 }
 .contacts-block {
 	display: block;
-	margin-bottom: 150px;
+	margin-bottom: 151px;
 	padding-left: 125px;
 	padding-right: 125px;
 	&__title {
@@ -230,8 +233,8 @@ body {
 			width: 20px;
 			height: 25px;
 			position: absolute;
-			left: -2px;
-			bottom: 40px;
+			left: -5px;
+			bottom: 35px;
 		}
 	}
 
@@ -240,8 +243,8 @@ body {
 			margin-bottom: 30px;
 			font-size: 60px;
 			line-height: 60px;
-			letter-spacing: -0.03em;
-			& a{
+			letter-spacing: -0.014em;
+			& a {
 				color: #121212;
 			}
 		}
@@ -264,7 +267,7 @@ body {
 	padding-bottom: 30px;
 	background-color: #121212;
 	&__nav {
-		margin-bottom: 76px;
+		margin-bottom: 88px;
 		text-align: center;
 		&_list {
 			display: inline-block;
@@ -276,6 +279,7 @@ body {
 				margin-right: 53px;
 				& a {
 					color: #ffffff;
+					//letter-spacing: -0.02em;
 				}
 			}
 			& li:last-child {
@@ -288,7 +292,7 @@ body {
 		text-align: center;
 		font-size: 20px;
 		line-height: 27px;
-		letter-spacing: -0.03em;
+		letter-spacing: -0.033em;
 		opacity: 0.5;
 		color: #ffffff;
 	}
