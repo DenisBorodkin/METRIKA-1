@@ -6,17 +6,16 @@ html {
 body {
 	width: 100%;
 	font-family: "Manrope", sans-serif;
-	background-color: #f5f5f5;
+	background-color: #ffffff;
 }
 .container {
-	width: 1400px;
-	background-color: #ffffff;
+	max-width: 1180px;
+	padding: 0 15px;
 	margin: 0 auto;
 }
 .header {
 	margin-bottom: 70px;
-	min-width: 1150px;
-	padding-top: 33px;
+	margin-top: 33px;
 	&__logo {
 		display: inline-block;
 		margin-right: 555px;
@@ -30,7 +29,7 @@ body {
 	&__nav {
 		display: inline-block;
 		vertical-align: top;
-		&_list {
+		& ul {
 			& li {
 				display: inline-block;
 				margin-right: 54px;
@@ -52,17 +51,7 @@ body {
 		}
 	}
 }
-
-.container-nav {
-	width: 1150px;
-	margin: 0 auto;
-}
-
-.section-block {
-	padding-left: 125px;
-	padding-right: 125px;
-}
-.header-block {
+.hero {
 	margin-bottom: 150px;
 	&__title {
 		margin-bottom: 30px;
@@ -73,12 +62,12 @@ body {
 	}
 
 	&__bg {
-		width: 1150px;
+		width: 100%;
 		height: 500px;
 		position: relative;
 		background-image: url("../img/header\ bg.png");
 		background-repeat: no-repeat;
-		&_text {
+		& p {
 			width: 430px;
 			position: absolute;
 			left: 40px;
@@ -130,7 +119,7 @@ body {
 		margin-bottom: 30px;
 	}
 	&__cards {
-		&_item {
+		& li {
 			margin-bottom: 90px;
 			& img {
 				margin-bottom: 15px;
@@ -182,7 +171,7 @@ body {
 		color: #ffffff;
 	}
 	&__items {
-		&_list {
+		& li {
 			margin-bottom: 60px;
 			&:last-child {
 				margin-bottom: 0;
@@ -198,6 +187,11 @@ body {
 		}
 	}
 }
+.container_bg {
+	min-width: 1400px;
+	padding: 0;
+	margin: 0 auto;
+}
 .project-footer-block {
 	margin-bottom: 185px;
 	&__bg {
@@ -208,7 +202,7 @@ body {
 		background-size: cover;
 		background-position: 50%;
 
-		&_text {
+		& p {
 			width: 443px;
 			position: absolute;
 			left: 125px;
@@ -269,7 +263,7 @@ body {
 	&__nav {
 		margin-bottom: 88px;
 		text-align: center;
-		&_list {
+		& ul {
 			display: inline-block;
 			font-size: 18px;
 			line-height: 25px;
@@ -279,7 +273,7 @@ body {
 				margin-right: 53px;
 				& a {
 					color: #ffffff;
-					//letter-spacing: -0.02em;
+					letter-spacing: -0.02em;
 				}
 			}
 			& li:last-child {
