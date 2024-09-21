@@ -1,0 +1,35 @@
+.header {
+  margin-bottom: 70px;
+  margin-top: 33px;
+}
+.header__logo {
+  display: inline-block;
+  margin-right: 555px;
+}
+.header__logo img {
+  display: block;
+  width: 127px;
+  height: 23px;
+}
+.header__nav {
+  display: inline-block;
+  vertical-align: top;
+}
+.header__nav ul li {
+  display: inline-block;
+  margin-right: 54px;
+}
+.header__nav ul li a {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-transform: uppercase;
+}
+.header__nav ul li:last-child {
+  margin-right: 0;
+}
+.header__nav ul li.header__nav_active-item {
+  border-bottom: 1px solid #000000;
+  opacity: 0.5;
+}

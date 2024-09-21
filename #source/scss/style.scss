@@ -9,48 +9,10 @@ body {
 	background-color: #ffffff;
 }
 .container {
-	max-width: 1180px;
-	padding: 0 15px;
+	max-width: 1150px;
 	margin: 0 auto;
 }
-.header {
-	margin-bottom: 70px;
-	margin-top: 33px;
-	&__logo {
-		display: inline-block;
-		margin-right: 555px;
-
-		& img {
-			display: block;
-			width: 127px;
-			height: 23px;
-		}
-	}
-	&__nav {
-		display: inline-block;
-		vertical-align: top;
-		& ul {
-			& li {
-				display: inline-block;
-				margin-right: 54px;
-				& a {
-					font-size: 18px;
-					line-height: 25px;
-					letter-spacing: -0.03em;
-					color: #121212;
-					text-transform: uppercase;
-				}
-			}
-			& li:last-child {
-				margin-right: 0;
-			}
-			& li.header__nav_active-item {
-				border-bottom: 1px solid #000000;
-				opacity: 0.5;
-			}
-		}
-	}
-}
+@import "header.scss"; //Подключение файла header.scss
 .hero {
 	margin-bottom: 150px;
 	&__title {
@@ -66,7 +28,7 @@ body {
 		height: 500px;
 		position: relative;
 		background-image: url("../img/header\ bg.png");
-		background-repeat: no-repeat;
+
 		& p {
 			width: 430px;
 			position: absolute;
@@ -256,38 +218,76 @@ body {
 		}
 	}
 }
-.footer {
-	padding-top: 60px;
-	padding-bottom: 30px;
-	background-color: #121212;
-	&__nav {
-		margin-bottom: 88px;
-		text-align: center;
-		& ul {
-			display: inline-block;
-			font-size: 18px;
-			line-height: 25px;
-			letter-spacing: -0.03em;
-			& li {
-				display: inline-block;
-				margin-right: 53px;
-				& a {
-					color: #ffffff;
-					letter-spacing: -0.02em;
-				}
-			}
-			& li:last-child {
-				margin-right: 0;
+@import "footer.scss"; //Подключение файла footer.scss
+@media (max-width: 1199px) {
+	.container {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		
+	}
+.hero{
+	&__title{
+		width: 802px;
+		font-size: 50px;
+	}
+	&__bg{
+
+		& p{
+
+		}
+	}
+}
+.description-block{
+
+	&__title{
+
+	}
+	&__text{
+		width: 690px;
+font-size: 35px;
+line-height: 48px;
+	}
+}
+
+
+}
+@media (max-width: 767px) {
+	.container {
+		padding-left: 13px;
+		padding-right: 12px;
+		
+	}
+	.hero{
+		&__title{
+			margin-bottom: 25px;
+			width: 337px;
+			font-size: 30px;
+			line-height: 32px;
+		}
+		&__bg{
+	
+			& p{
+				width: 312px;
+				line-height: 22px;
+	font-size: 16px;
+
 			}
 		}
 	}
+	.description-block{
 
-	&__text {
-		text-align: center;
-		font-size: 20px;
-		line-height: 27px;
-		letter-spacing: -0.033em;
-		opacity: 0.5;
-		color: #ffffff;
+		&__title{
+			margin-bottom: 20px;
+	font-size: 14px;
+		}
+		&__text{
+		width: 100%;
+		font-size: 22px;
+		line-height: 30px;
+		}
 	}
+
+
+
 }

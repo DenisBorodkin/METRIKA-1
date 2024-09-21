@@ -1,0 +1,38 @@
+.header {
+	margin-bottom: 70px;
+	margin-top: 33px;
+	&__logo {
+		display: inline-block;
+		margin-right: 555px;
+
+		& img {
+			display: block;
+			width: 127px;
+			height: 23px;
+		}
+	}
+	&__nav {
+		display: inline-block;
+		vertical-align: top;
+		& ul {
+			& li {
+				display: inline-block;
+				margin-right: 54px;
+				& a {
+					font-size: 18px;
+					line-height: 25px;
+					letter-spacing: -0.03em;
+					color: #121212;
+					text-transform: uppercase;
+				}
+			}
+			& li:last-child {
+				margin-right: 0;
+			}
+			& li.header__nav_active-item {
+				border-bottom: 1px solid #000000;
+				opacity: 0.5;
+			}
+		}
+	}
+}
