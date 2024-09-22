@@ -84,6 +84,7 @@ body {
 		margin-bottom: 30px;
 	}
 	&__cards {
+		margin-bottom: 90px;
 		& li {
 			margin-bottom: 90px;
 			& img {
@@ -105,6 +106,9 @@ body {
 					text-decoration: none;
 				}
 			}
+		}
+		& li:last-child {
+			margin-bottom: 0;
 		}
 	}
 	&__footer-link {
@@ -282,11 +286,15 @@ body {
 	}
 }
 @media (max-width: 767px) {
+	body {
+		background-color: #ffffff;
+	}
 	.container {
 		padding-left: 13px;
 		padding-right: 12px;
 	}
 	.hero {
+		margin-top: 61px;
 		margin-bottom: 80px;
 		&__title {
 			margin-bottom: 25px;
