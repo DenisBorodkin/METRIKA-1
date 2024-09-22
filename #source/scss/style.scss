@@ -28,6 +28,9 @@ body {
 		height: 500px;
 		position: relative;
 		background-image: url("../img/header\ bg.png");
+		background-repeat: no-repeat;
+		background-position: 50%;
+		background-size: cover;
 
 		& p {
 			width: 430px;
@@ -224,70 +227,134 @@ body {
 		width: 100%;
 		padding-left: 15px;
 		padding-right: 15px;
-		
 	}
-.hero{
-	&__title{
-		width: 802px;
-		font-size: 50px;
-	}
-	&__bg{
-
-		& p{
-
+	.hero {
+		margin-bottom: 120px;
+		&__title {
+			width: 802px;
+			font-size: 50px;
+		}
+		&__bg {
+			height: 400px;
+			& p {
+				left: 42px;
+				bottom: 30px;
+			}
 		}
 	}
-}
-.description-block{
-
-	&__title{
-
+	.description-block {
+		margin-bottom: 120px;
+		&__text {
+			width: 690px;
+			font-size: 35px;
+			line-height: 48px;
+		}
 	}
-	&__text{
-		width: 690px;
-font-size: 35px;
-line-height: 48px;
+	.projects-block {
+		margin-bottom: 100px;
+		&__title {
+			margin-bottom: 30px;
+			font-size: 18px;
+		}
+		&__cards {
+			margin-bottom: 100px;
+			& li {
+				margin-bottom: 80px;
+				& img {
+					width: 928px;
+					height: 450px;
+				}
+				& article {
+					& h3 {
+						font-size: 25px;
+					}
+					& a {
+						font-size: 20px;
+					}
+				}
+			}
+			& li:last-child {
+				margin-bottom: 0;
+			}
+		}
+		&__footer-link {
+		}
 	}
-}
-
-
 }
 @media (max-width: 767px) {
 	.container {
 		padding-left: 13px;
 		padding-right: 12px;
-		
 	}
-	.hero{
-		&__title{
+	.hero {
+		margin-bottom: 80px;
+		&__title {
 			margin-bottom: 25px;
 			width: 337px;
 			font-size: 30px;
 			line-height: 32px;
 		}
-		&__bg{
-	
-			& p{
-				width: 312px;
+		&__bg {
+			height: 310px;
+			& p {
+				width: 300px;
+				left: 15px;
+				bottom: 15px;
 				line-height: 22px;
-	font-size: 16px;
-
+				font-size: 16px;
 			}
 		}
 	}
-	.description-block{
-
-		&__title{
+	.description-block {
+		margin-bottom: 80px;
+		&__title {
 			margin-bottom: 20px;
-	font-size: 14px;
+			font-size: 14px;
 		}
-		&__text{
-		width: 100%;
-		font-size: 22px;
-		line-height: 30px;
+		&__text {
+			width: 100%;
+			font-size: 22px;
+			line-height: 30px;
+		}
+		&__link {
+			padding: 15px 27px;
+			border-radius: 4px;
+			font-size: 16px;
 		}
 	}
-
-
-
+	.projects-block {
+		margin-bottom: 80px;
+		&__title {
+			margin-bottom: 20px;
+			font-size: 14px;
+		}
+		&__cards {
+			margin-bottom: 60px;
+			& li {
+				margin-bottom: 49px;
+				& img {
+					margin-bottom: 20px;
+					width: 100%;
+					height: 250px;
+				}
+				& article {
+					& h3 {
+						font-size: 18px;
+					}
+					& a {
+						font-size: 16px;
+					}
+				}
+			}
+			& li:last-child {
+				margin-bottom: 0;
+			}
+		}
+		&__footer-link {
+			height: 100px;
+			border-radius: 4px;
+			line-height: 100px;
+			font-size: 22px;
+		}
+	}
 }
