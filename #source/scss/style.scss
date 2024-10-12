@@ -17,7 +17,7 @@ body {
 	margin-bottom: 150px;
 	&__title {
 		margin-bottom: 30px;
-		width: 985px;
+		width: 956px;
 		font-size: 60px;
 		line-height: 60px;
 		letter-spacing: -0.03em;
@@ -27,7 +27,7 @@ body {
 		width: 100%;
 		height: 500px;
 		position: relative;
-		background-image: url("../img/header\ bg.png");
+		background-image: url("../img/hero-bg.png");
 		background-repeat: no-repeat;
 		background-position: 50%;
 		background-size: cover;
@@ -60,12 +60,12 @@ body {
 
 	&__link {
 		display: inline-block;
-		padding: 24px 40px;
+		padding: 20px 40px;
 		text-decoration: none;
 		background-color: #ad1818;
 		color: #ffffff;
 		font-size: 20px;
-		line-height: 20px;
+		line-height: 27px;
 		border-radius: 5px;
 		letter-spacing: -0.03em;
 	}
@@ -166,7 +166,7 @@ body {
 	&__bg {
 		height: 717px;
 		position: relative;
-		background-image: url("../img/footer-project\ bg.png");
+		background-image: url("../img/footer-project_bg.png");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: 50%;
@@ -229,7 +229,7 @@ body {
 @media (max-width: 1199px) {
 	.container {
 		width: 100%;
-		padding-left: 15px;
+		padding-left: 17px;
 		padding-right: 15px;
 	}
 	.hero {
@@ -237,6 +237,7 @@ body {
 		&__title {
 			width: 802px;
 			font-size: 50px;
+			line-height: 60px;
 		}
 		&__bg {
 			height: 400px;
@@ -265,7 +266,7 @@ body {
 			& li {
 				margin-bottom: 80px;
 				& img {
-					width: 928px;
+					width: 100%;
 					height: 450px;
 				}
 				& article {
@@ -363,6 +364,13 @@ body {
 			border-radius: 4px;
 			line-height: 100px;
 			font-size: 22px;
+		}
+	}
+}
+@media (max-width: 400px) {
+	.hero {
+		&__bg {
+			background-image: url("../img/hero__bg_phone400.png");
 		}
 	}
 }
