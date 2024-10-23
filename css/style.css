@@ -427,6 +427,7 @@ body {
       .projects-block__cards li:last-child {
         margin-bottom: 0; }
   .services-block {
+    margin-bottom: 100px;
     padding: 151px 23px 120px 27px; }
     .services-block__items {
       margin-bottom: 80px; }
@@ -523,6 +524,7 @@ body {
       line-height: 100px;
       font-size: 22px; }
   .services-block {
+    margin-bottom: 80px;
     padding: 80px 15px 80px 21px; }
     .services-block__title {
       margin-bottom: 20px;
