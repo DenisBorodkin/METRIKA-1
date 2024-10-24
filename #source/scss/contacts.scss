@@ -1,0 +1,46 @@
+.contacts-block {
+	display: block;
+	margin-bottom: 151px;
+	padding-left: 125px;
+	padding-right: 125px;
+	&__title {
+		margin-bottom: 32px;
+		position: relative;
+		&::before {
+			content: url("/img/icon-phone.png");
+			width: 20px;
+			height: 25px;
+			position: absolute;
+			left: -5px;
+			bottom: 35px;
+		}
+	}
+
+	&__numbers {
+		&_phone {
+			margin-bottom: 30px;
+			font-size: 60px;
+			line-height: 60px;
+			letter-spacing: -0.014em;
+			& a {
+				color: #121212;
+			}
+		}
+		&_email {
+			display: inline-block;
+			padding-bottom: 10px;
+			font-size: 60px;
+			line-height: 60px;
+			letter-spacing: -0.03em;
+			& a {
+				color: #121212;
+				opacity: 0.5;
+				border-bottom: 2px solid;
+			}
+		}
+	}
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 767px) {
+}

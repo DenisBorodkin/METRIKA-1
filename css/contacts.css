@@ -1,0 +1,32 @@
+.contacts-block {
+  display: block;
+  margin-bottom: 151px;
+  padding-left: 125px;
+  padding-right: 125px; }
+  .contacts-block__title {
+    margin-bottom: 32px;
+    position: relative; }
+    .contacts-block__title::before {
+      content: url("/img/icon-phone.png");
+      width: 20px;
+      height: 25px;
+      position: absolute;
+      left: -5px;
+      bottom: 35px; }
+  .contacts-block__numbers_phone {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.014em; }
+    .contacts-block__numbers_phone a {
+      color: #121212; }
+  .contacts-block__numbers_email {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em; }
+    .contacts-block__numbers_email a {
+      color: #121212;
+      opacity: 0.5;
+      border-bottom: 2px solid; }
