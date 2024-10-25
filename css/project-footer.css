@@ -1,0 +1,21 @@
+.project-footer-block {
+  margin-bottom: 185px;
+}
+.project-footer-block__bg {
+  height: 717px;
+  position: relative;
+  background-image: url("../img/footer-project_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.project-footer-block__bg p {
+  width: 443px;
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
