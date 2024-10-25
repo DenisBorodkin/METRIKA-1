@@ -6,15 +6,8 @@
 
 	&__row {
 		display: flex;
-		&_top {
-			margin-bottom: 50px;
-			display: flex;
-			justify-content: space-between;
-		}
-
-		&_bottom {
-			display: flex;
-		}
+		margin-bottom: 50px;
+		justify-content: space-between;
 	}
 }
 .reveiws-column {
@@ -40,10 +33,10 @@
 		margin-bottom: 0;
 	}
 }
-.column-bottom {
+.reveiws-column:last-child:nth-child(2n + 1) {
 	width: 861px;
 }
-@media (max-width: 1199px){
+@media (max-width: 1199px) {
 	.reviews-block {
 		margin-bottom: 120px;
 		padding-left: 16px;
@@ -52,13 +45,11 @@
 			margin-bottom: 30px;
 		}
 		&__row {
-			&_top {
-				margin-bottom: 80px;
-			}
+			margin-bottom: 80px;
 		}
 	}
 	.reveiws-column {
-		width: calc(50% - 5px);
+		width: calc(50% - 10px);
 		&__title {
 			margin-bottom: 25px;
 			font-size: 35px;
@@ -71,11 +62,11 @@
 			line-height: 27px;
 		}
 	}
-	.column-bottom {
-		width: 861px;
+	.reveiws-column:last-child:nth-child(2n + 1) {
+		width: 694px;
 	}
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
 	.reviews-block {
 		margin-bottom: 80px;
 		padding-left: 13px;
@@ -86,28 +77,28 @@
 			line-height: 19px;
 		}
 		&__row {
-			&_top {
-				margin-bottom: 80px;
-				flex-direction: column;
+			flex-direction: column;
+		}
+		.reveiws-column {
+			margin-bottom: 80px;
+			width: 100%;
+			&__title {
+				margin-bottom: 10px;
+				font-size: 25px;
+				line-height: 34px;
+			}
+
+			&__text {
+				margin-bottom: 30px;
+				font-size: 16px;
+				line-height: 22px;
 			}
 		}
-	}
-	.reveiws-column {
-		margin-bottom: 80px;
-		width: 100%;
-		&__title {
-			margin-bottom: 10px;
-			font-size: 25px;
-			line-height: 34px;
+		.reveiws-column:last-child {
+			margin-bottom: 0;
 		}
-
-		&__text {
-			margin-bottom: 30px;
-			font-size: 16px;
-			line-height: 22px;
+		.reveiws-column:last-child:nth-child(2n + 1) {
+			width: 100%;
 		}
-	}
-	.reveiws-column:last-child {
-		margin-bottom: 0;
 	}
 }
