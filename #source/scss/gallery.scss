@@ -1,0 +1,36 @@
+.gallery-block {
+	margin-bottom: 150px;
+	&__bg {
+		height: 717px;
+		position: relative;
+		background-image: url("../img/gallery-img_1.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50%;
+		& h2 {
+			position: absolute;
+			left: 124px;
+			top: 67px;
+			font-weight: 400;
+			font-size: 22px;
+			line-height: 30px;
+			letter-spacing: -0.03em;
+			text-transform: uppercase;
+			color: #fff;
+		}
+		& p {
+			width: 443px;
+			position: absolute;
+			left: 125px;
+			bottom: 60px;
+			font-size: 30px;
+			line-height: 41px;
+			letter-spacing: -0.03em;
+			color: #ffffff;
+		}
+	}
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 767px) {
+}
