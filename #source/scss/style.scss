@@ -1,16 +1,16 @@
 @import "nulestyle.scss"; //Подключение обнуляющих стилей
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-	width: 100%;
-	font-family: "Manrope", sans-serif;
-	background-color: #ffffff;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  background-color: #ffffff;
 }
 .container {
-	max-width: 1150px;
-	margin: 0 auto;
+  max-width: 1150px;
+  margin: 0 auto;
 }
 @import "header.scss"; //Подключение файла header.scss
 @import "hero.scss"; //Подключение файла hero.scss
@@ -21,31 +21,26 @@ body {
 @import "gallery.scss"; //Подключение файла project-footer.scss
 @import "contacts.scss"; //Подключение файла contacts.scss
 .title {
-	text-transform: uppercase;
-	font-size: 18px;
-	line-height: 25px;
-	letter-spacing: -0.055em;
-	color: #121212;
-}
-.container_bg {
-	min-width: 1400px;
-	padding: 0;
-	margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.055em;
+  color: #121212;
 }
 @import "footer.scss"; //Подключение файла footer.scss
 @media (max-width: 1199px) {
-	.container {
-		width: 100%;
-		padding-left: 17px;
-		padding-right: 15px;
-	}
+  .container {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
 }
 @media (max-width: 767px) {
-	body {
-		background-color: #ffffff;
-	}
-	.container {
-		padding-left: 13px;
-		padding-right: 12px;
-	}
+  body {
+    background-color: #ffffff;
+  }
+  .container {
+    padding-left: 13px;
+    padding-right: 12px;
+  }
 }

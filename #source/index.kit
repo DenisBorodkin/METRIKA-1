@@ -16,6 +16,7 @@
 
   <body>
     <!--@import "header.html"-->
+    <!--Подключение файла header.html-->
     <main>
       <section class="hero">
         <div class="container">
@@ -209,11 +210,79 @@
         </div>
       </section>
       <section class="gallery-block">
-        <div class="container container_bg">
-          <div class="gallery-block__bg">
-				<h2>галерея проектов</h2>
-            <p>Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+        <div class="gallery">
+			<div class="gallery__controls-wrapper">
+            <div class="container">
+					<div class="gallery__controls">
+                <button class="gallery__control-prev">
+                  <img src="./img/icon-prev.png" alt="Стлелка назад" />
+                </button>
+                <button class="gallery__control-next">
+                  <img src="./img/icon-next.png" alt="Стредка вперёд" />
+                </button>
+					</div>
+            </div>
           </div>
+          <div class="gallery__title-wrapper">
+            <div class="container">
+              <p class="gallery__title">галерея проектов</p>
+            </div>
+          </div>
+			
+          <div class="gallery__slides">
+            <div class="gallery__slide gallery__slide_active">
+              <div class="box">
+                <img
+                  src="./img/gallery-img_1.png"
+                  alt="Проект  Двухкомнатной квартиры"
+                />
+                <div class="box__text-wrapper">
+                  <div class="container">
+                    <p>Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery__slide">
+              <div class="box">
+                <img src="./img/gallery-img_2.png" alt="Проект гостиной" />
+                <div class="box__text-wrapper">
+                  <div class="container">
+                    <p>Проект гостиной в ЖК Маяк</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery__slide">
+              <div class="box">
+                <img
+                  src="./img/gallery-img_3.png"
+                  alt="Визуализация кухни-гостиной"
+                />
+                <div class="box__text-wrapper">
+                  <div class="container">
+                    <p>Визуализация кухни-гостиной в частном доме</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery__slide">
+              <div class="box">
+                <img
+                  src="./img/gallery-img_4.png"
+                  alt="Проект кухни в скандинавском стиле"
+                />
+                <div class="box__text-wrapper">
+                  <div class="container">
+                    <p>
+                      Проект кухни в скандинавском стиле для ЖК Северный Ветер
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
         </div>
       </section>
       <section id="contacts" class="contacts-block">
@@ -230,6 +299,7 @@
         </div>
       </section> 
     </main>
-    <!--@import "footer.html"-->
+    <!--@import "footer.html"--><!--Подключение файла footer.html-->
+    <script src="/js/gallery.js"></script>
   </body>
 </html>
