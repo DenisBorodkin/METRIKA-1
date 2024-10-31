@@ -637,7 +637,7 @@ body {
       line-height: 60px;
       letter-spacing: -0.014em; }
       .contacts-block__numbers_phone::before {
-        content: url("/img/icon-phone.png");
+        content: url("../img/icon-phone.png");
         display: block;
         width: 24px;
         height: 24px;
@@ -654,7 +654,7 @@ body {
       line-height: 60px;
       letter-spacing: -0.03em; }
       .contacts-block__numbers_email::before {
-        content: url("/img/icon-mail.png");
+        content: url("..//img/icon-mail.png");
         display: block;
         width: 24px;
         height: 24px;
@@ -750,6 +750,20 @@ body {
     letter-spacing: -0.03em; }
     .nav__link :hover {
       opacity: 0.5; }
+
+@media (max-width: 767px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 26px; }
+    .footer__text {
+      font-size: 13px;
+      line-height: 18px; }
+  .nav {
+    width: 281px;
+    margin-bottom: 41px; }
+    .nav__link {
+      font-size: 12px;
+      line-height: 16px; } }
 
 @media (max-width: 1199px) {
   .container {

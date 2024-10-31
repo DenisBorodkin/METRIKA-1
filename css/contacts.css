@@ -14,7 +14,7 @@
   letter-spacing: -0.014em;
 }
 .contacts-block__numbers_phone::before {
-  content: url("/img/icon-phone.png");
+  content: url("../img/icon-phone.png");
   display: block;
   width: 24px;
   height: 24px;
@@ -34,7 +34,7 @@
   letter-spacing: -0.03em;
 }
 .contacts-block__numbers_email::before {
-  content: url("/img/icon-mail.png");
+  content: url("..//img/icon-mail.png");
   display: block;
   width: 24px;
   height: 24px;

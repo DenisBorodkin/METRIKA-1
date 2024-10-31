@@ -35,3 +35,22 @@
 .nav__link :hover {
   opacity: 0.5;
 }
+
+@media (max-width: 767px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 26px;
+  }
+  .footer__text {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .nav {
+    width: 281px;
+    margin-bottom: 41px;
+  }
+  .nav__link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

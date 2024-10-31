@@ -37,4 +37,20 @@
 @media (max-width: 1199px) {
 }
 @media (max-width: 767px) {
+	.footer {
+		padding-top: 30px;
+		padding-bottom: 26px;
+		&__text {
+			font-size: 13px;
+			line-height: 18px;
+		}
+	}
+	.nav {
+		width: 281px;
+		margin-bottom: 41px;
+		&__link {
+			font-size: 12px;
+			line-height: 16px;
+		}
+	}
 }
