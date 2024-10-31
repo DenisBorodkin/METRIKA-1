@@ -12,6 +12,13 @@ body {
   max-width: 1150px;
   margin: 0 auto;
 }
+.title {
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.055em;
+	color: #121212;
+ }
 @import "header.scss"; //Подключение файла header.scss
 @import "hero.scss"; //Подключение файла hero.scss
 @import "description.scss"; //Подключение файла description.scss
@@ -20,13 +27,6 @@ body {
 @import "reviews.scss"; //Подключение файла reviews.scss
 @import "gallery.scss"; //Подключение файла project-footer.scss
 @import "contacts.scss"; //Подключение файла contacts.scss
-.title {
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: -0.055em;
-  color: #121212;
-}
 @import "footer.scss"; //Подключение файла footer.scss
 @media (max-width: 1199px) {
   .container {
