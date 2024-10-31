@@ -11,7 +11,7 @@
 			line-height: 60px;
 			letter-spacing: -0.014em;
 			&::before {
-				content: url("../img/icon-phone.png");
+				content: url("/img/icon-phone.png");
 				display: block;
 				width: 24px;
 				height: 24px;
@@ -31,7 +31,7 @@
 			line-height: 60px;
 			letter-spacing: -0.03em;
 			&::before {
-				content: url("../img/icon-mail.png");
+				content: url("./img/icon-mail.png");
 				display: block;
 				width: 24px;
 				height: 24px;
