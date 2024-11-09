@@ -2,50 +2,51 @@
   margin-bottom: 150px;
 }
 .contacts-block__numbers {
+  margin-top: 25px;
   display: flex;
-  justify-content: space-between;
+}
+.contacts-block__numbers_phone::before, .contacts-block__numbers_email::before {
+  content: "";
+  display: block;
+  margin-bottom: 26px;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .contacts-block__numbers_phone {
-  position: relative;
-  margin-top: 75px;
-  margin-bottom: 30px;
+  width: 50%;
+  display: block;
+  margin-top: 32px;
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -0.014em;
 }
 .contacts-block__numbers_phone::before {
-  content: url("../img/icon-phone.png");
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: -5px;
-  bottom: 120px;
+  background-image: url("../img/icon-phone.png");
 }
 .contacts-block__numbers_phone a {
   color: #121212;
 }
 .contacts-block__numbers_email {
-  margin-top: 70px;
+  width: 50%;
+  display: block;
+  margin-top: 30px;
   padding-bottom: 10px;
-  position: relative;
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -0.03em;
 }
 .contacts-block__numbers_email::before {
-  content: url("../img/icon-mail.png");
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 0px;
-  bottom: 150px;
+  background-image: url("../img/icon-mail.png");
+  background-position: bottom;
+  background-position: 50% 100%;
 }
 .contacts-block__numbers_email a {
   color: #121212;
   opacity: 0.5;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1199px) {
@@ -56,14 +57,8 @@
     font-size: 45px;
     margin-bottom: 20px;
   }
-  .contacts-block__numbers_phone::before {
-    bottom: 108px;
-  }
   .contacts-block__numbers_email {
     font-size: 45px;
-  }
-  .contacts-block__numbers_email::before {
-    bottom: 125px;
   }
 }
 @media (max-width: 767px) {
@@ -79,11 +74,9 @@
     flex-direction: column;
   }
   .contacts-block__numbers_phone {
+    min-width: 300px;
     font-size: 35px;
     line-height: 46px;
-  }
-  .contacts-block__numbers_phone::before {
-    bottom: 88px;
   }
   .contacts-block__numbers_numbers_email {
     font-size: 35px;
